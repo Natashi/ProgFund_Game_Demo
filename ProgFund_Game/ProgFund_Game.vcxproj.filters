@@ -30,9 +30,6 @@
     <ClCompile Include="source\Engine\Scene.cpp">
       <Filter>Header Files\Engine</Filter>
     </ClCompile>
-    <ClCompile Include="source\Engine\Input.cpp">
-      <Filter>Header Files\Engine</Filter>
-    </ClCompile>
     <ClCompile Include="source\Engine\ResourceManager.cpp">
       <Filter>Header Files\Engine</Filter>
     </ClCompile>
@@ -40,9 +37,6 @@
       <Filter>Header Files\Engine</Filter>
     </ClCompile>
     <ClCompile Include="source\Engine\Object.cpp">
-      <Filter>Header Files\Engine</Filter>
-    </ClCompile>
-    <ClCompile Include="source\Engine\Rand.cpp">
       <Filter>Header Files\Engine</Filter>
     </ClCompile>
   </ItemGroup>
@@ -59,9 +53,6 @@
     <ClInclude Include="source\Engine\Scene.hpp">
       <Filter>Header Files\Engine</Filter>
     </ClInclude>
-    <ClInclude Include="source\Engine\Input.hpp">
-      <Filter>Header Files\Engine</Filter>
-    </ClInclude>
     <ClInclude Include="source\Engine\ResourceManager.hpp">
       <Filter>Header Files\Engine</Filter>
     </ClInclude>
@@ -71,13 +62,7 @@
     <ClInclude Include="source\Engine\Object.hpp">
       <Filter>Header Files\Engine</Filter>
     </ClInclude>
-    <ClInclude Include="source\Engine\VectorExtensions.hpp">
-      <Filter>Header Files\Engine</Filter>
-    </ClInclude>
     <ClInclude Include="source\Engine\DxConstant.hpp">
-      <Filter>Header Files\Engine</Filter>
-    </ClInclude>
-    <ClInclude Include="source\Engine\Rand.hpp">
       <Filter>Header Files\Engine</Filter>
     </ClInclude>
   </ItemGroup>

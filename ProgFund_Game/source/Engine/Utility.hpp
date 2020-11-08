@@ -2,10 +2,6 @@
 
 #include "../../pch.h"
 
-#include "VectorExtensions.hpp"
-#include "Table.hpp"
-#include "Rand.hpp"
-
 //*******************************************************************
 //Error utilities
 //*******************************************************************
@@ -57,17 +53,6 @@ public:
 	static inline T ClampRet(T color) {
 		ColorUtility::Clamp(color);
 		return color;
-	}
-
-	static inline D3DCOLOR VectorToD3DColor(const D3DXVECTOR4& vec) {
-		__m128 v1 = Vectorize::Load(vec);
-		v1 = Vectorize::Mul(v1, Vectorize::Replicate(255.0f));
-		return D3DCOLOR_RGBA((int)v1.m128_f32[0], (int)v1.m128_f32[1], 
-			(int)v1.m128_f32[2], (int)v1.m128_f32[3]);
-	}
-	static inline D3DXVECTOR4 D3DColorToVector(const D3DCOLOR& col) {
-		return D3DXVECTOR4(GetR(col) / 255.0f, GetG(col) / 255.0f, 
-			GetB(col) / 255.0f, GetA(col) / 255.0f);
 	}
 };
 

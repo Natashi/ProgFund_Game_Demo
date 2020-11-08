@@ -189,9 +189,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="source\Engine\Input.cpp" />
     <ClCompile Include="source\Engine\Object.cpp" />
-    <ClCompile Include="source\Engine\Rand.cpp" />
     <ClCompile Include="source\Engine\ResourceManager.cpp" />
     <ClCompile Include="source\Engine\Scene.cpp" />
     <ClCompile Include="source\Engine\Vertex.cpp" />
@@ -201,10 +199,7 @@
     <ClInclude Include="pch.h" />
     <ClInclude Include="source\Engine\DxConstant.hpp" />
     <ClInclude Include="source\Engine\Object.hpp" />
-    <ClInclude Include="source\Engine\Rand.hpp" />
-    <ClInclude Include="source\Engine\VectorExtensions.hpp" />
     <ClInclude Include="source\Engine\Vertex.hpp" />
-    <ClInclude Include="source\Engine\Input.hpp" />
     <ClInclude Include="source\Engine\ResourceManager.hpp" />
     <ClInclude Include="source\Engine\Scene.hpp" />
     <ClInclude Include="source\Engine\Window.hpp" />
